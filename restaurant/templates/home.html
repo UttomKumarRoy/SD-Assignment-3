@@ -1,5 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Home - Restaurant {% endblock %}
-{% block content %}Home - Restaurant {% endblock %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<br> <br>
+<div class="row">
+    <div class="col">
+        <h2>Welcome to Rajdhani Restaurant</h2> <br>
+        <p>In our restaurant you can enjoy 100+ items. All are testy food. We give percel service also.</p>
+        <button>Order Now</button>
+    </div>
+    <div class="col">
+        <img src="{% static 'images/food.JPG' %}" class="img-fluid" alt="">
+    </div>
+</div>
+
+{% endblock %}

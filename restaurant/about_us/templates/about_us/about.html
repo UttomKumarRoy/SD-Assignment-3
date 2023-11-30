@@ -1,5 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}About - Restaurant {% endblock %}
-{% block content %}about - Restaurant {% endblock %}
+{% block title %}About Us{% endblock %}
+{% block content %}
+<br> <br>
+<div class="row">
+    <div class="col">
+        <h2>Welcome to About Us Page</h2> <br>
+        <h3>Hi, I am Uttom Kumar Roy. I am the technical supporter of Rajdhani Restaurant.</h3>
+        <p>You can follow me <a href="https://web.facebook.com/uttomkumar.roy.7/">FB Profile</a></p>
+    </div>
+    <div class="col">
+        <img src="{% static 'images/uttom.jpg' %}" class="img-fluid" alt="">
+    </div>
+</div>
+<br> <br>
+{% endblock %}
